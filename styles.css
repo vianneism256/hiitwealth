@@ -1,0 +1,249 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica', Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #272727;
+  color: #222;
+  padding: 20px;
+  letter-spacing: -0.03em; /* Slightly tighter letter spacing */
+}
+
+/* Container Styling */
+section {
+  margin-bottom: 60px;
+  max-width: 900px;
+  margin-inline: auto;
+  padding: 0 20px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #ffe259, #ffa751);
+  border-radius: 20px;
+  color: #111;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto 30px;
+}
+
+.hero input {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.hero button {
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.hero button:hover {
+  background-color: #444;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 12px;
+}
+
+/* About, Free PDF, Offer, Pricing */
+.about, .free-pdf, .offer, .pricing, .faq {
+  background-color: rgba(35, 23, 44, 0.5);
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.about h2,
+.free-pdf h2,
+.offer h2,
+.pricing h2,
+.faq h2 {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  color: #ffffff;
+}
+
+.about p, .about li,
+.free-pdf p, .free-pdf li,
+.offer p, .offer li,
+.pricing p, .pricing li,
+.faq p, .faq li {
+  color: #ffffff;
+}
+
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+
+.neon-bar {
+  color: #39ff14; /* Neon green */
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.neon-bar2 {
+  color: #ff14d8; /* Neon green */
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1em;
+  vertical-align: middle;
+}
+
+.offer img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: #ffa751;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+
+.buttons button:hover {
+  background-color: #e48f3f;
+}
+
+/* Pricing Table */
+.pricing table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+    color: #fff; /* Make table text white */
+}
+
+.pricing th,
+.pricing td {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+    color: #fff; /* Ensure table cells are white */
+}
+
+/* FAQ */
+.faq details {
+  margin-top: 10px;
+  background: #f1f1f1;
+  padding: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.faq summary {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.faq p {
+color: #000;
+}
+
+/* Testimonials */
+.testimonials {
+  background-color: #fffbe7;
+  padding: 40px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(255,167,81,0.08);
+  margin-bottom: 60px;
+  max-width: 900px;
+  margin-inline: auto;
+}
+
+.testimonials h2 {
+  color: #e48f3f;
+  margin-bottom: 24px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.testimonial-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.testimonial {
+  background: #fff;
+  border-left: 6px solid #ffa751;
+  padding: 20px 24px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.testimonial span {
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+    
+footer a {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
